@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:black;
+}
+.container{
+    display: flex; /*deixa todos elementos inline*/
+    align-items: center; /*alinha os itens de denro do conteiner ao centro*/
+    justify-content: center;/*alinha os elementos do container (div's) ao centro*/
+    width: 1200fr; /*largura total do container*/
+    height: 100vh; /*alura total do cnteiner*/    
+}
+
+.item{
+    display: flex;
+    width: 4rem; /*largura total de cada div*/
+    height: 4rem; /*altura total de cada div*/
+    color: rgb(223, 21, 7);
+    margin: 4px; /*espaçamento entre uma div e outra*/
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 2px rgb(66, 66, 66);
+    box-shadow: 3px 3px 3px rgb(252, 250, 249);
+}
+/*========= Efeito ao passar o mouse sobre os ítens =============*/
+.item:hover{
+    background: rgb(44, 43, 43);
+    color: white;
+    box-shadow:3px 3px 3px chartreuse;;
+}
+/*===============================================================*/
